@@ -1,0 +1,146 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+body
+{
+    font-family:verdane;
+    background-color:white;
+    padding:50px;
+}
+.di
+{
+    margin:0px;
+    padding:0px;
+}
+.div1 p
+{
+    float: left;
+    padding:15px;
+    margin:-17px;
+}
+.div2 p
+{
+    float:right;
+    padding:15px;
+    margin:-17px;
+}
+.nav
+{
+    border-top: 1px solid;
+    max-width:1200;
+    width: 100%;
+    background-color:#265F4C;
+
+}
+.nav li
+{
+
+    float: left;
+    display: block;
+    padding:5px;
+    margin: 10px;
+
+
+}
+.nav li a
+{
+    text-decoration: none;
+    display:initial;
+    margin:0px;
+    padding:10px;
+    border-radius: 5px;
+    width:87px;
+    height:34px;
+    text-align:center;
+    line-height:18px;
+    opacity:.8;
+}
+.nav li a:hover
+{
+     background-color:orange;
+}
+.slider
+{
+    overflow: hidden;
+    margin:30px,auto;
+    position: relative;
+
+}
+#next_button
+{
+    border-radius: 150%;
+    position: absolute;
+    right: 5;
+    top: 125px;
+}
+#previous_button
+{
+   position: absolute;
+    right:1150px;
+    top: 125px;
+    border-radius: 150%;
+}
+
+#art
+{
+    padding:7px;
+    margin:6px;
+    height:27%;
+
+
+}
+#left
+{
+    margin-right: -446px;
+}
+#left h4
+{
+    float:left;
+    width:30%;
+    border-width:10px;
+    padding:0px;
+    margin:0px;
+}
+.footer-large
+{
+    padding-top: 30px;
+    position: relative;
+    width: 100%;
+    background:white;
+    border-top: solid;
+    border-bottom: solid;
+    background-color:#265F4C;
+}
+.footer-large .content {
+    max-width: 1100px;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    }
+    .footer-large .content div.section {
+    box-sizing: border-box;
+    width: 25%;
+    height: 20%;
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+.footer-left p
+{
+    float:left;
+    padding: 10px;
+    margin:10px;
+}
+.footer-right p
+{
+    float: right;
+    padding: 10px;
+}
