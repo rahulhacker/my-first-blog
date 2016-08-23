@@ -1,0 +1,283 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href="static/css/blog.css" rel="stylesheet" />
+    </head>
+
+        <body class="body1">
+                <div id="main" class="head">
+                <p>LOREM<strong>IPSUMDOL</strong></p>
+                </div>
+                <div id="headsub" class="hsub">
+                <p>Have You Any Queries ? Call Us?</p>
+                <p> +000 555 123 456</p>
+                </div>
+                <div id="container">
+                 <header>
+                    <a href="#">MAIN PAGE</a>
+                    <a href="#">ABOUT COMPANY</a>
+                    <a href="#">SERVICES</a>
+                    <a href="#">SOMETHING SPECIAL</a>
+                    <a href="#">REFRENCES</a>
+                    <a href="#">CONTACT US NOW</a>
+                 </header>
+                 <div id="img" class="img">
+                    <img src="{% static "my_app/img1.jpg" %}" alt="Not visible">
+                    </div>
+                    <div id="content">
+                    <p>Found on sandy soils in heathland or shrubland, it grows to 2 m (7 ft) high and 3 m (10 ft) across with fine needle-like leaves. Appearing in spring and summer, the flower spikes are tan to cream with purple styles. B. scabrella is killed by fire and regenerates by seed. Originally collected in 1966
+                    </p>
+                    </div>
+                 <footer>
+
+                 </footer>
+                 </div>
+        </body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href="static/css/blog.css" rel="stylesheet" />
+</head>
+        <body>
+          <div class="centred">
+          <div id="head-left">
+          <p>LORIMIDUMDOL</p>
+          </div>
+          <div id="head-right">
+          <p>HAVE YOU HAVE ANY QUERIES</p>
+          </div>
+          <br>
+
+                 <div id="nav">
+                   <ul>
+                         <li><a href="one.html">MAIN PAGE</a></li>
+                         <li><a href="two.html">COMPANY</a></li>
+                         <li><a href="three.html">SERVICES</a></li>
+                         <li><a href="four.html">SOMETHING SPECIAL</a></li>
+                         <li><a href="five.html">REFRENCES</a></li>
+                         <li><a href="five.html">CONTACT US NOW</a></li>
+                   </ul>
+                </div>
+                <br>
+
+                    <div id="img" class="img">
+                    <img src="{% static "my_app/img1.jpg" %}" alt="Not visible" align="middle">
+                    </div>
+                    <div class="atricle">
+                    <div style="width: 50%; float:left">
+                    <article>
+                            <h1>Bruce Lawson is World's Sexiest Man</h1>
+                            <p>Legions of lovely ladies voted luscious lothario Lawson as the World's Sexiest Man today.</p>
+                            <h2>Second-sexiest man concedes defeat</h2>
+                            <p>Remington Sharp, jQuery glamourpuss and Brighton roister-doister, was gracious in defeat. "It's cool being the second sexiest man when number one is Awesome Lawson" he said, from his swimming pool-sized jacuzzi full of supermodels.</p>
+                    </article>
+                     </div>
+                     <div style="width: 50%; float:right">
+                     <article>
+                            <h1>Bruce Lawson is World's Sexiest Man</h1>
+                            <p>Legions of lovely ladies voted luscious lothario Lawson as the World's Sexiest Man today.</p>
+                            <h2>Second-sexiest man concedes defeat</h2>
+                            <p>Remington Sharp, jQuery glamourpuss and Brighton roister-doister, was gracious in defeat. "It's cool being the second sexiest man when number one is Awesome Lawson" he said, from his swimming pool-sized jacuzzi full of supermodels.</p>
+                    </article>
+                    </div>
+                    </div>
+         <div class="footer-large">
+         <div class="content align-centre">
+         <div class="section">
+         <p   class="category-title">About us</p>
+         <ul>
+         <li>BLOG</li>
+         <li>Engineering Blog</li>
+         <li>Career</li>
+         <li>Team</li>
+         </ul>
+         </div>
+         <div class="section">
+         <p   class="category-title">HACKEREARTH</p>
+         <ul>
+         <li>BLOG</li>
+         <li>Engineering Blog</li>
+         <li>Career</li>
+         <li>Team</li>
+         </ul>
+         </div>
+         <div class="section">
+         <p   class="category-title">DEVELOPERS</p>
+         <ul>
+         <li>BLOG</li>
+         <li>Engineering Blog</li>
+         <li>Career</li>
+         <li>Team</li>
+         </ul>
+         </div>
+         <div class="section">
+         <p   class="category-title">EMPLOYEE</p>
+         <ul>
+         <li>Developer Sourcing </li>
+         <li>Lateral Hiring</li>
+         <li>Campus Hiring</li>
+         <li>Hackthons</li>
+         </ul>
+         </div>
+         </div>
+         </div>
+        </body>
+</html>
+
+
+
+
+
+
+#head-left
+{
+   float:left;
+   padding:5px,5px,5px,5px;
+   margin-left: 5px;
+   margin-top:10px;
+}
+#head-right p
+{
+    float:right;
+    padding:5px,5px,5px,5px;
+    margin-right:5px;
+    margin-top: 10px;
+
+}
+
+div#nav{
+    height:1em;
+    clear:both;
+    margin-left: 100px;
+    margin-right: auto;
+    width: 100%;
+
+}
+div#nav ul{
+    margin:auto;
+    padding:0;
+
+}
+div#nav li{
+    padding:5px;
+  width:160px;
+  display:inline-block;
+  float: left;
+  text-align:center;
+   background-color:black;
+}
+.footer-large
+{
+    padding-top: 30px;
+    position: relative;
+    width: 100%;
+    background:#323754;
+}
+.footer-large .content {
+    max-width: 1100px;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    }
+    .footer-large .content div.section {
+    box-sizing: border-box;
+    width: 15%;
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.article
+{
+   background:#323756;
+}
+
+position: relative;
+    float: right;
+    display: inline;
+    margin: 0;
+
+
+
+
+
+
+
+.body12
+{
+    max-width: 1000px;
+    width: 100%;
+}
+#textbox
+{
+    width: 100%;
+    float: left;
+    padding:10px;
+}
+.alignleft {
+    float: left;
+    display: inline;
+    padding-left: 10%;
+}
+.alignright {
+    float: right;
+    margin:10px,10px,10px;
+}
+div#nav{
+    height:1em;
+    clear:both;
+    margin-left: 100px;
+    margin-right: auto;
+    width: 100%;
+
+}
+div#nav ul{
+    margin:auto;
+    padding:0;
+
+}
+div#nav li{
+   padding:5px;
+   width:160px;
+   display:inline-block;
+   float: left;
+   text-align:center;
+   background-color:black;
+}
+#img
+{
+    padding-left:5%;
+    padding-right:10%;
+}
+
+
+1  sudo apt-get update
+    2  sudo apt-get install htop
+    3  htop
+    4  sudo apt-get install git
+    5  git clone https://github.com/rahulhacker/my-first-blog.git
+    6  sudo pip install django==1.9
+    7  sudo apt-get install python-pip
+    8  sudo pip install django==1.9
+    9  ls
+   10  cd my-first-blog/
+   11  ls
+   12  python manage.py runserver
+   13  python manage.py runserver 0.0.0.0 80
+   14  python manage.py runserver 0.0.0.0:80
+   15  sudo python man
+
+   def form(request):
+    return render(request,'blog/post_list.html' {})
+        url(r'^formlist$',views.formlist, name='formlist')

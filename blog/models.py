@@ -18,3 +18,11 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Profile(models.Model):
+    name = models.CharField(max_length=200)
+    email = models.CharField(max_length=200)
+    resume= models.FileField(upload_to='uploads',null=True)
+
+

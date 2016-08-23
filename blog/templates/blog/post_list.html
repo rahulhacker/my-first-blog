@@ -1,33 +1,36 @@
+<!DOCTYPE html>
 <html>
-    <head>
-    </head>
-        <body>
-                <form>
-                <p>Name</p>
-                <input name="name" type="text" />
-                </br>
-                <p>Email</p>
-                <input name="email" type="text" />
-                </br>
-                <p>Resume</p>
-                <input name="resume" type="file" />
-                </br>
-                </br>
-                <input type="submit" value="Submit" />
-                </form>
-        </body>
+<head>
+    <title></title>
+</head>
+<body>
+        <form action="{% url 'save' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <fieldset>
+          <legend>Login</legend>
+          <label>
+            Name
+            <input name="name" type="text" />
+          </label>
+          <br/>
+          <br/>
+          <label>
+            Email
+            <input name="email" type="text" />
+          </label>
+          <br/>
+          <br/>
+          <label>
+            Resume
+            <input name="resume" type="file" />
+            </label>
+            <br/>
+            <br/>
+            <br/>
+            <label>
+            <input type="submit" value="Submit" />
+            </label>
+        </fieldset>
+
+</body>
 </html>
-
-#container {
-    float: left;
-    margin: 5px;
-    padding: 15px;
-    height: 300px;
-
-}
-body {
-    float:left;
-    clear: left;
-
-}
-ssh -i webserver.pem ubuntu@ec2-52-43-236-235.us-west-2.compute.amazonaws.com

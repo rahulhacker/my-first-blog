@@ -1,0 +1,27 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href="static/css/blog.css" rel="stylesheet" />
+</head>
+<body class="list1body">
+<h3>{{title}} is working</h3>
+<div class="listofobject" style="background-color: #F5F5F5;
+    padding: 33px;
+    margin: 28px;
+    width: 50%;
+    margin-left: 25%;">
+{% for object in object_list %}
+<p style="color: red;">
+ {{object.name}}<br/></p>
+
+ {{object.email}}<br/>
+ {{object.resume}}<br/>
+ <br/>
+ <br/>
+ <br/>
+ {% endfor %}
+ </div>
+</body>
+</html>
